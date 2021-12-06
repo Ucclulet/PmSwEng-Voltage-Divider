@@ -6,6 +6,7 @@
 
 #include "UserInputValidator.h"
 
+
 UserInputValidator::UserInputValidator(const QString& unit, QObject* parent) :
   QValidator(parent),
   unit(unit),
@@ -15,13 +16,6 @@ UserInputValidator::UserInputValidator(const QString& unit, QObject* parent) :
 
 }
 
-///
-/// \brief Validate the User-input to be valid values for the Formula.
-///
-/// \param &input User-input data
-/// \param &pos 
-/// \return returns QValidator::Acceptable if ok, otherwise QValidator::Intermediate
-/// 
 QValidator::State UserInputValidator::validate(QString &input, int &pos) const
 {
   static_cast<void>(pos);  //suppress unused parameter compiler warning
