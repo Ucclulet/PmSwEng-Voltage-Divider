@@ -28,8 +28,8 @@ class VoltageDivider {
   /// \pre \p u2 > 0
   /// \pre \p lowerRTh < \p upperRTh
   /// \pre \p lowerRTh > 0
-  /// \param u1 Value for U1 in V
-  /// \param u2 Value for U2 in V
+  /// \param u1 Value for U1 in Volt
+  /// \param u2 Value for U2 in Volt
   /// \param lowerRTh set the lower bound for resistor value output
   /// \param upperRTh set the higher bound for resistor value output
   /// \return returns the resulting restistor values if calculation finishes
