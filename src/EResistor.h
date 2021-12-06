@@ -75,7 +75,10 @@ class EResistor {
   {
     return getValue();
   }
-
+  ///
+  /// \brief Constructor of the EResistor Class.
+  /// \return returns actual Resistor value (always a value of the actual set E Series)
+  ///
   double getValue() const
   {
     return eSerie[index] * pow(10, exp);
