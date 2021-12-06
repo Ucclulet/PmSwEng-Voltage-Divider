@@ -9,6 +9,10 @@
 
 #include <QValidator>
 
+///
+/// \brief A UserInputValidator object validates the User input for further use.
+///
+
 class UserInputValidator : public QValidator
 {
 public:

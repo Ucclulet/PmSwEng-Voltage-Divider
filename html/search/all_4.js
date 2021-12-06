@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['resultingresistors_6',['ResultingResistors',['../structVoltageDivider_1_1ResultingResistors.html',1,'VoltageDivider']]]
+  ['main_2ecpp_8',['main.cpp',['../main_8cpp.html',1,'']]]
 ];

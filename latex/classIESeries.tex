@@ -25,9 +25,8 @@ enum {\bfseries Series\+Type} \{ {\bfseries e12} = 0
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}\label{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}} 
-virtual unsigned int {\bfseries get\+Elem\+Cnt} () const =0
-\item 
+virtual unsigned int \mbox{\hyperlink{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}{get\+Elem\+Cnt}} () const =0
+\begin{DoxyCompactList}\small\item\em Gets the number of elements in the e-\/series. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{classIESeries_ab2a59c4b187501a6e06535c45cbfc4e7}\label{classIESeries_ab2a59c4b187501a6e06535c45cbfc4e7}} 
 virtual std\+::string {\bfseries get\+Name} () const =0
 \item 
@@ -44,6 +43,26 @@ Series\+Type \& {\bfseries operator++} (Series\+Type \&serie)
 
 \doxysubsection{Detailed Description}
 The \mbox{\hyperlink{classIESeries}{IESeries}} class is an interface to be able to mock \mbox{\hyperlink{classESeries}{ESeries}} class for test reasons. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}\label{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}} 
+\index{IESeries@{IESeries}!getElemCnt@{getElemCnt}}
+\index{getElemCnt@{getElemCnt}!IESeries@{IESeries}}
+\doxysubsubsection{\texorpdfstring{getElemCnt()}{getElemCnt()}}
+{\footnotesize\ttfamily virtual unsigned int IESeries\+::get\+Elem\+Cnt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Gets the number of elements in the e-\/series. 
+
+\begin{DoxyReturn}{Returns}
+returns the number of elements in the e-\/series 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classESeries_a58011c52089ec6bc3d0127d4c86f1165}{ESeries}}.
+
+
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
