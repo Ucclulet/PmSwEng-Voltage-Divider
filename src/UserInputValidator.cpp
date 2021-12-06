@@ -6,6 +6,7 @@
 
 #include "UserInputValidator.h"
 
+
 UserInputValidator::UserInputValidator(const QString& unit, QObject* parent) :
   QValidator(parent),
   unit(unit),
