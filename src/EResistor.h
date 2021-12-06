@@ -18,6 +18,12 @@ class EResistor {
     assignLowerEValue
   };
 
+  ///
+  /// \brief Constructor of the EResistor Class.
+  /// \param value of the Resistor
+  /// \param method choose if the Resistor has to be assigned to the lower or the higher E-Value
+  /// \param serie Reference to actual set E Series
+  ///
   EResistor(double value, AssignMethod method, const IESeries& serie);
 
   bool operator<(const EResistor& rhs) const
@@ -39,6 +45,7 @@ class EResistor {
   {
     return getValue() >= rhs.getValue();
   }
+
 
   const EResistor& operator++()
   {
