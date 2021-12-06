@@ -1,0 +1,53 @@
+\hypertarget{classVoltageDivider}{}\doxysection{Voltage\+Divider Class Reference}
+\label{classVoltageDivider}\index{VoltageDivider@{VoltageDivider}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structVoltageDivider_1_1ResultingResistors}{Resulting\+Resistors}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{structVoltageDivider_1_1ResultingResistors}{Resulting\+Resistors}} \mbox{\hyperlink{classVoltageDivider_ac1a5436c22bd1eadf48257e5091d2854}{calc}} (double u1, double u2, const \mbox{\hyperlink{classEResistor}{EResistor}} \&lower\+RTh, const \mbox{\hyperlink{classEResistor}{EResistor}} \&upper\+RTh)
+\begin{DoxyCompactList}\small\item\em Calculates the optimal values for R1 and R2. The base formula behind this calculation is $u1=u2 {r2 \over r2+r1}$. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classVoltageDivider_ac1a5436c22bd1eadf48257e5091d2854}\label{classVoltageDivider_ac1a5436c22bd1eadf48257e5091d2854}} 
+\index{VoltageDivider@{VoltageDivider}!calc@{calc}}
+\index{calc@{calc}!VoltageDivider@{VoltageDivider}}
+\doxysubsubsection{\texorpdfstring{calc()}{calc()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{structVoltageDivider_1_1ResultingResistors}{Resulting\+Resistors}} Voltage\+Divider\+::calc (\begin{DoxyParamCaption}\item[{double}]{u1,  }\item[{double}]{u2,  }\item[{const \mbox{\hyperlink{classEResistor}{EResistor}} \&}]{lower\+RTh,  }\item[{const \mbox{\hyperlink{classEResistor}{EResistor}} \&}]{upper\+RTh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Calculates the optimal values for R1 and R2. The base formula behind this calculation is $u1=u2 {r2 \over r2+r1}$. 
+
+\begin{DoxyPrecond}{Precondition}
+{\ttfamily u1} $>$ {\ttfamily u2} 
+
+{\ttfamily u2} $>$ 0 
+
+{\ttfamily lower\+RTh} $<$ {\ttfamily upper\+RTh} 
+
+{\ttfamily lower\+RTh} $>$ 0 
+\end{DoxyPrecond}
+
+\begin{DoxyParams}{Parameters}
+{\em u1} & Value for U1 in Volt \\
+\hline
+{\em u2} & Value for U2 in Volt \\
+\hline
+{\em lower\+RTh} & set the lower bound for resistor value output \\
+\hline
+{\em upper\+RTh} & set the higher bound for resistor value output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the resulting restistor values if calculation finishes successful. Otherwise 0 is returned in r1 and r2. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{VoltageDivider_8h}{Voltage\+Divider.\+h}}\end{DoxyCompactItemize}

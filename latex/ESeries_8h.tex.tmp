@@ -1,0 +1,23 @@
+\hypertarget{ESeries_8h}{}\doxysection{src/\+ESeries.h File Reference}
+\label{ESeries_8h}\index{src/ESeries.h@{src/ESeries.h}}
+{\ttfamily \#include $<$QString$>$}\newline
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include \char`\"{}IESeries.\+h\char`\"{}}\newline
+Include dependency graph for ESeries.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classESeries}{ESeries}}
+\begin{DoxyCompactList}\small\item\em The \mbox{\hyperlink{classESeries}{ESeries}} class represents the E resistor series E12 and E24. If more E resistor series are required, this class can be appended. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyDate}{Date}
+30.\+11.\+2016 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Michael Trummer 
+\end{DoxyAuthor}

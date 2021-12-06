@@ -1,0 +1,50 @@
+\hypertarget{classIESeries}{}\doxysection{IESeries Class Reference}
+\label{classIESeries}\index{IESeries@{IESeries}}
+
+
+The \mbox{\hyperlink{classIESeries}{IESeries}} class is an interface to be able to mock \mbox{\hyperlink{classESeries}{ESeries}} class for test reasons.  
+
+
+
+
+{\ttfamily \#include $<$IESeries.\+h$>$}
+
+
+
+Inheritance diagram for IESeries\+:
+% FIG 0
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIESeries_a7012dba54e78a5a76fb8d69340ebc211}\label{classIESeries_a7012dba54e78a5a76fb8d69340ebc211}} 
+enum {\bfseries Series\+Type} \{ {\bfseries e12} = 0
+, {\bfseries e24}
+, {\bfseries nr\+Of\+ESeries}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}\label{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}} 
+virtual unsigned int {\bfseries get\+Elem\+Cnt} () const =0
+\item 
+\mbox{\Hypertarget{classIESeries_ab2a59c4b187501a6e06535c45cbfc4e7}\label{classIESeries_ab2a59c4b187501a6e06535c45cbfc4e7}} 
+virtual std\+::string {\bfseries get\+Name} () const =0
+\item 
+\mbox{\Hypertarget{classIESeries_a3096917448a012612b90c3d7b282efb2}\label{classIESeries_a3096917448a012612b90c3d7b282efb2}} 
+virtual double {\bfseries operator\mbox{[}$\,$\mbox{]}} (int index) const =0
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIESeries_a7f0808b6b0e3d40de6b5333d9ea327e9}\label{classIESeries_a7f0808b6b0e3d40de6b5333d9ea327e9}} 
+Series\+Type \& {\bfseries operator++} (Series\+Type \&serie)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classIESeries}{IESeries}} class is an interface to be able to mock \mbox{\hyperlink{classESeries}{ESeries}} class for test reasons. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/IESeries.\+h\end{DoxyCompactItemize}
