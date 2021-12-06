@@ -18,6 +18,11 @@
 class ESeries : public IESeries {
  public:
 
+  ///
+  /// \brief Constructor which sets the variables values, elemCnt and name in 
+  /// realtion to the defined serie
+  /// \param serie is a enum of the type SeriesType
+  ///
   ESeries(IESeries::SeriesType serie) : type(serie)
   {
     switch (serie)
@@ -36,11 +41,21 @@ class ESeries : public IESeries {
     }
   }
 
+  ///
+  /// \brief Gets the number of elements in the e-series
+  /// \return returns the number of elements in the e-series
+  ///
+  
   unsigned int getElemCnt() const
   {
     return elemCnt;
   }
 
+  ///
+  /// \brief Gets the name of the e-series
+  /// \return returns the name of the e-series
+  ///
+  
   std::string getName() const
   {
     return name;
