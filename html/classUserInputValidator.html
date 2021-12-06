@@ -84,8 +84,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb9906d86c9fc5bd6f3900debb889555"><td class="memItemLeft" align="right" valign="top"><a id="acb9906d86c9fc5bd6f3900debb889555"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>UserInputValidator</b> (const QString &amp;unit, QObject *parent=0)</td></tr>
 <tr class="separator:acb9906d86c9fc5bd6f3900debb889555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4801fa85d4d5c815c6c8ca641284a1a3"><td class="memItemLeft" align="right" valign="top"><a id="a4801fa85d4d5c815c6c8ca641284a1a3"></a>
-virtual State&#160;</td><td class="memItemRight" valign="bottom"><b>validate</b> (QString &amp;input, int &amp;pos) const</td></tr>
+<tr class="memitem:a4801fa85d4d5c815c6c8ca641284a1a3"><td class="memItemLeft" align="right" valign="top">virtual State&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUserInputValidator.html#a4801fa85d4d5c815c6c8ca641284a1a3">validate</a> (QString &amp;input, int &amp;pos) const</td></tr>
+<tr class="memdesc:a4801fa85d4d5c815c6c8ca641284a1a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate the User-input to be valid values for the Formula.  <a href="classUserInputValidator.html#a4801fa85d4d5c815c6c8ca641284a1a3">More...</a><br /></td></tr>
 <tr class="separator:a4801fa85d4d5c815c6c8ca641284a1a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a873c06af4f528ac59ea82c0c2e4f90f8"><td class="memItemLeft" align="right" valign="top"><a id="a873c06af4f528ac59ea82c0c2e4f90f8"></a>
 double&#160;</td><td class="memItemRight" valign="bottom"><b>getValue</b> () const</td></tr>
@@ -94,6 +94,53 @@ double&#160;</td><td class="memItemRight" valign="bottom"><b>getValue</b> () con
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>getIsValid</b> () const</td></tr>
 <tr class="separator:aa396994934e8e609daa139ee288d8ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4801fa85d4d5c815c6c8ca641284a1a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4801fa85d4d5c815c6c8ca641284a1a3">&#9670;&nbsp;</a></span>validate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QValidator::State UserInputValidator::validate </td>
+          <td>(</td>
+          <td class="paramtype">QString &amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Validate the User-input to be valid values for the Formula. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&amp;input</td><td>User-input data </td></tr>
+    <tr><td class="paramname">&amp;pos</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>returns QValidator::Acceptable if ok, otherwise QValidator::Intermediate </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/<a class="el" href="UserInputValidator_8h_source.html">UserInputValidator.h</a></li>
 <li>src/UserInputValidator.cpp</li>

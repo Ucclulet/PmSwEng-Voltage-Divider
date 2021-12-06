@@ -14,15 +14,37 @@ Collaboration diagram for User\+Input\+Validator\+:
 \mbox{\Hypertarget{classUserInputValidator_acb9906d86c9fc5bd6f3900debb889555}\label{classUserInputValidator_acb9906d86c9fc5bd6f3900debb889555}} 
 {\bfseries User\+Input\+Validator} (const QString \&unit, QObject $\ast$parent=0)
 \item 
-\mbox{\Hypertarget{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}\label{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}} 
-virtual State {\bfseries validate} (QString \&input, int \&pos) const
-\item 
+virtual State \mbox{\hyperlink{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}{validate}} (QString \&input, int \&pos) const
+\begin{DoxyCompactList}\small\item\em Validate the User-\/input to be valid values for the Formula. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{classUserInputValidator_a873c06af4f528ac59ea82c0c2e4f90f8}\label{classUserInputValidator_a873c06af4f528ac59ea82c0c2e4f90f8}} 
 double {\bfseries get\+Value} () const
 \item 
 \mbox{\Hypertarget{classUserInputValidator_aa396994934e8e609daa139ee288d8ab0}\label{classUserInputValidator_aa396994934e8e609daa139ee288d8ab0}} 
 bool {\bfseries get\+Is\+Valid} () const
 \end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}\label{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}} 
+\index{UserInputValidator@{UserInputValidator}!validate@{validate}}
+\index{validate@{validate}!UserInputValidator@{UserInputValidator}}
+\doxysubsubsection{\texorpdfstring{validate()}{validate()}}
+{\footnotesize\ttfamily QValidator\+::\+State User\+Input\+Validator\+::validate (\begin{DoxyParamCaption}\item[{QString \&}]{input,  }\item[{int \&}]{pos }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Validate the User-\/input to be valid values for the Formula. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \&input} & User-\/input data \\
+\hline
+{\em \&pos} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns QValidator\+::\+Acceptable if ok, otherwise QValidator\+::\+Intermediate 
+\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
