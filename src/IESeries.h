@@ -17,9 +17,16 @@ class IESeries {
     nrOfESeries
   };
 
+  
   friend SeriesType& operator++(SeriesType& serie);
 
+  ///
+  /// \brief Gets the number of elements in the e-series
+  /// \return returns the number of elements in the e-series
+  ///
+  
   virtual unsigned int getElemCnt() const = 0;
+  
 
   virtual std::string getName() const = 0;
 
