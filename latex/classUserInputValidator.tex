@@ -11,20 +11,61 @@ Collaboration diagram for User\+Input\+Validator\+:
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classUserInputValidator_acb9906d86c9fc5bd6f3900debb889555}\label{classUserInputValidator_acb9906d86c9fc5bd6f3900debb889555}} 
-{\bfseries User\+Input\+Validator} (const QString \&unit, QObject $\ast$parent=0)
-\item 
+\mbox{\hyperlink{classUserInputValidator_acb9906d86c9fc5bd6f3900debb889555}{User\+Input\+Validator}} (const QString \&unit, QObject $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{classUserInputValidator}{User\+Input\+Validator}} Ctor. \end{DoxyCompactList}\item 
 virtual State \mbox{\hyperlink{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}{validate}} (QString \&input, int \&pos) const
 \begin{DoxyCompactList}\small\item\em Validate the User-\/input to be valid values for the Formula. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{classUserInputValidator_a873c06af4f528ac59ea82c0c2e4f90f8}\label{classUserInputValidator_a873c06af4f528ac59ea82c0c2e4f90f8}} 
-double {\bfseries get\+Value} () const
-\item 
-\mbox{\Hypertarget{classUserInputValidator_aa396994934e8e609daa139ee288d8ab0}\label{classUserInputValidator_aa396994934e8e609daa139ee288d8ab0}} 
-bool {\bfseries get\+Is\+Valid} () const
-\end{DoxyCompactItemize}
+double \mbox{\hyperlink{classUserInputValidator_a873c06af4f528ac59ea82c0c2e4f90f8}{get\+Value}} () const
+\begin{DoxyCompactList}\small\item\em Getter for value. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classUserInputValidator_aa396994934e8e609daa139ee288d8ab0}{get\+Is\+Valid}} () const
+\begin{DoxyCompactList}\small\item\em Getter for {\ttfamily is\+Valid}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classUserInputValidator_acb9906d86c9fc5bd6f3900debb889555}\label{classUserInputValidator_acb9906d86c9fc5bd6f3900debb889555}} 
+\index{UserInputValidator@{UserInputValidator}!UserInputValidator@{UserInputValidator}}
+\index{UserInputValidator@{UserInputValidator}!UserInputValidator@{UserInputValidator}}
+\doxysubsubsection{\texorpdfstring{UserInputValidator()}{UserInputValidator()}}
+{\footnotesize\ttfamily User\+Input\+Validator\+::\+User\+Input\+Validator (\begin{DoxyParamCaption}\item[{const QString \&}]{unit,  }\item[{QObject $\ast$}]{parent = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{classUserInputValidator}{User\+Input\+Validator}} Ctor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em } & \\
+\hline
+\end{DoxyParams}
 
 
 \doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classUserInputValidator_aa396994934e8e609daa139ee288d8ab0}\label{classUserInputValidator_aa396994934e8e609daa139ee288d8ab0}} 
+\index{UserInputValidator@{UserInputValidator}!getIsValid@{getIsValid}}
+\index{getIsValid@{getIsValid}!UserInputValidator@{UserInputValidator}}
+\doxysubsubsection{\texorpdfstring{getIsValid()}{getIsValid()}}
+{\footnotesize\ttfamily bool User\+Input\+Validator\+::get\+Is\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for {\ttfamily is\+Valid}. 
+
+\begin{DoxyReturn}{Returns}
+Returns value of {\ttfamily is\+Valid} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUserInputValidator_a873c06af4f528ac59ea82c0c2e4f90f8}\label{classUserInputValidator_a873c06af4f528ac59ea82c0c2e4f90f8}} 
+\index{UserInputValidator@{UserInputValidator}!getValue@{getValue}}
+\index{getValue@{getValue}!UserInputValidator@{UserInputValidator}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily double User\+Input\+Validator\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Getter for value. 
+
+\begin{DoxyReturn}{Returns}
+Returns parameter {\ttfamily value} 
+\end{DoxyReturn}
 \mbox{\Hypertarget{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}\label{classUserInputValidator_a4801fa85d4d5c815c6c8ca641284a1a3}} 
 \index{UserInputValidator@{UserInputValidator}!validate@{validate}}
 \index{validate@{validate}!UserInputValidator@{UserInputValidator}}
@@ -37,14 +78,9 @@ Validate the User-\/input to be valid values for the Formula.
 
 
 \begin{DoxyParams}{Parameters}
-{\em \&input} & User-\/input data \\
-\hline
-{\em \&pos} & \\
+{\em } & \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{Returns}
-returns QValidator\+::\+Acceptable if ok, otherwise QValidator\+::\+Intermediate 
-\end{DoxyReturn}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}

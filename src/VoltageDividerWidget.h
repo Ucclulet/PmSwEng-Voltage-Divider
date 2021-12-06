@@ -27,12 +27,25 @@ class VoltageDividerWidget : public QWidget {
   Q_OBJECT
 
  public:
+///
+/// \brief Constructor of class VoltageDividerWidget
+/// \param A parent QT window can be defined. Default is root.
+///
 
   explicit VoltageDividerWidget(QWidget *parent = 0);
+
+///
+/// \brief This is the default destructor
+///
 
   ~VoltageDividerWidget();
 
  public slots:
+///
+/// \brief Refeshes the window after the results are calculated
+/// \param r1 Calculated result of Resistor 1
+/// \param r2 Calculated result of Resistor 2
+///
 
   void onResultRefresh(double r1, double r2);
 

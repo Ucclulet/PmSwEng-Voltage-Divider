@@ -23,9 +23,8 @@ Collaboration diagram for ESeries\+:
 \mbox{\Hypertarget{classESeries_a26dd23e6fc5baa155bb1396006ebbde2}\label{classESeries_a26dd23e6fc5baa155bb1396006ebbde2}} 
 {\bfseries ESeries} (IESeries\+::\+Series\+Type serie)
 \item 
-\mbox{\Hypertarget{classESeries_a58011c52089ec6bc3d0127d4c86f1165}\label{classESeries_a58011c52089ec6bc3d0127d4c86f1165}} 
-unsigned int {\bfseries get\+Elem\+Cnt} () const
-\item 
+unsigned int \mbox{\hyperlink{classESeries_a58011c52089ec6bc3d0127d4c86f1165}{get\+Elem\+Cnt}} () const
+\begin{DoxyCompactList}\small\item\em Gets the number of elements in the e-\/series. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{classESeries_a08a801b88f83b1805cdeff396ea647fd}\label{classESeries_a08a801b88f83b1805cdeff396ea647fd}} 
 std\+::string {\bfseries get\+Name} () const
 \item 
@@ -37,6 +36,26 @@ double {\bfseries operator\mbox{[}$\,$\mbox{]}} (int index) const
 
 \doxysubsection{Detailed Description}
 The \mbox{\hyperlink{classESeries}{ESeries}} class represents the E resistor series E12 and E24. If more E resistor series are required, this class can be appended. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classESeries_a58011c52089ec6bc3d0127d4c86f1165}\label{classESeries_a58011c52089ec6bc3d0127d4c86f1165}} 
+\index{ESeries@{ESeries}!getElemCnt@{getElemCnt}}
+\index{getElemCnt@{getElemCnt}!ESeries@{ESeries}}
+\doxysubsubsection{\texorpdfstring{getElemCnt()}{getElemCnt()}}
+{\footnotesize\ttfamily unsigned int ESeries\+::get\+Elem\+Cnt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the number of elements in the e-\/series. 
+
+\begin{DoxyReturn}{Returns}
+returns the number of elements in the e-\/series 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIESeries_a3b3bbdc131b25ed6967608efcd17d7fb}{IESeries}}.
+
+
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
