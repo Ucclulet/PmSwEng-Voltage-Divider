@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['userinputvalidator_7',['UserInputValidator',['../classUserInputValidator.html',1,'']]],
-  ['userinputvalidator_2eh_8',['UserInputValidator.h',['../UserInputValidator_8h.html',1,'']]]
+  ['resultingresistors_9',['ResultingResistors',['../structVoltageDivider_1_1ResultingResistors.html',1,'VoltageDivider']]]
 ];
