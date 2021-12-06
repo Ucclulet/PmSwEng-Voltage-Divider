@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['onresultrefresh_39',['onResultRefresh',['../classVoltageDividerWidget.html#a58043af24fe966bfcfaf5e3a4618bf04',1,'VoltageDividerWidget']]]
+  ['getelemcnt_37',['getElemCnt',['../classESeries.html#a58011c52089ec6bc3d0127d4c86f1165',1,'ESeries::getElemCnt()'],['../classIESeries.html#a3b3bbdc131b25ed6967608efcd17d7fb',1,'IESeries::getElemCnt()']]],
+  ['getisvalid_38',['getIsValid',['../classUserInputValidator.html#aa396994934e8e609daa139ee288d8ab0',1,'UserInputValidator']]],
+  ['getvalue_39',['getValue',['../classUserInputValidator.html#a873c06af4f528ac59ea82c0c2e4f90f8',1,'UserInputValidator']]]
 ];

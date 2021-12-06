@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_7evoltagedividerwidget_43',['~VoltageDividerWidget',['../classVoltageDividerWidget.html#ac898b38904bc2f0956903f113c5a37fb',1,'VoltageDividerWidget']]]
+  ['validate_42',['validate',['../classUserInputValidator.html#a4801fa85d4d5c815c6c8ca641284a1a3',1,'UserInputValidator']]],
+  ['voltagedividerwidget_43',['VoltageDividerWidget',['../classVoltageDividerWidget.html#a2a0c5a21ac0decb599bbd4abeb7bc483',1,'VoltageDividerWidget']]]
 ];
