@@ -27,6 +27,10 @@ class IESeries {
   
   virtual unsigned int getElemCnt() const = 0;
   
+  ///
+  /// \brief Gets the name of the e-series
+  /// \return returns the name of the e-series
+  ///
 
   virtual std::string getName() const = 0;
 
