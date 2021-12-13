@@ -19,6 +19,8 @@ SOURCES += main.cpp\
     ESeries.cpp \
     ESeriesType.cpp
 
+LIBS += -lgtest
+
 HEADERS  += \
     UserInputValidator.h \
     VoltageDivider.h \
@@ -26,6 +28,11 @@ HEADERS  += \
     EResistor.h \
     ESeries.h \
     IESeries.h
+
+#GCOV Settings
+QMAKE_CXXFLAGS += -fprofile-arcs -ftest-coverage
+QMAKE_LDFLAGS += -fprofile-arcs -ftest-coverage
+LIBS += -lgcov
 
 FORMS    += \
     voltagedividerwidget.ui
