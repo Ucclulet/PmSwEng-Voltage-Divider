@@ -12,6 +12,7 @@ TARGET = VoltageDivider
 TEMPLATE = app
 
 SOURCES += main.cpp\
+    ESeriesTest.cpp \
     UserInputValidator.cpp \
     VoltageDivider.cpp \
     VoltageDividerWidget.cpp \
